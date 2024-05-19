@@ -15,3 +15,6 @@
     - Click the "Backup" button/dropdown at the bottom.
     - Click "Load from XML file...".
     - After you loaded the file, click "Ok" on the Open-Shell menu.
+
+![Boykisser Large](boykisser_open-shell_icon_large.png)
+![Boykisser Small](boykisser_open-shell_icon.png)
