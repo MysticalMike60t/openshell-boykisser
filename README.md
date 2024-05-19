@@ -7,4 +7,7 @@
                 /____/                                               
 </pre>
 #
-The "_large" version is higher resolution, and the one without it is the smaller resolution.
+## Steps
+1. Select image:
+    - The "_large" version is higher resolution, and the one without it is the smaller resolution.
+2. Set "Button size" to `60`
