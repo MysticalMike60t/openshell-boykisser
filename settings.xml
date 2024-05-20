@@ -12,6 +12,7 @@
 	<Undock value="0"/>
 	<ShowAppsMenu value="0"/>
 	<Help value="0"/>
+	<RecentProgsTop value="0"/>
 	<SearchBox value="Normal"/>
 	<InvertMetroIcons value="0"/>
 	<MainMenuAnimation value="Slide"/>
@@ -93,18 +94,20 @@
 	<StartButtonSize value="60"/>
 	<StartButtonAlign value="0"/>
 	<CustomTaskbar value="0"/>
+	<TaskbarLook value="Glass"/>
+	<TaskbarColor value="2361604"/>
 	<SkipMetro value="1"/>
+	<OpenMouseMonitor value="1"/>
 	<MenuItems1>
-		<Line>Items=COLUMN_PADDING,AppsMenu,ProgramsMenu,COLUMN_PADDING,SEPARATOR,SettingsMenu,ComputerItem,SearchMenu,SEPARATOR,FavoritesItem,SEPARATOR,RunItem,SEPARATOR,LogOffItem,UndockItem,DisconnectItem,ShutdownBoxItem,SearchBoxItem</Line>
-		<Line>AppsMenu.Command=apps</Line>
-		<Line>AppsMenu.Label=$Menu.Apps</Line>
-		<Line>AppsMenu.Icon=,2</Line>
-		<Line>ProgramsMenu.Items=RecentPrograms</Line>
+		<Line>Items=COLUMN_PADDING,ProgramsMenu,COLUMN_PADDING,SEPARATOR,SettingsMenu,ComputerItem,SearchMenu,SEPARATOR,FavoritesItem,SEPARATOR,RunItem,SEPARATOR,LogOffItem,UndockItem,DisconnectItem,ShutdownBoxItem,SearchBoxItem</Line>
+		<Line>ProgramsMenu.Items=SEPARATOR,RecentPrograms</Line>
 		<Line>ProgramsMenu.Command=programs</Line>
 		<Line>ProgramsMenu.Label=$Menu.Programs</Line>
 		<Line>ProgramsMenu.Tip=$Menu.ProgramsTip</Line>
 		<Line>ProgramsMenu.Icon=shell32.dll,326</Line>
 		<Line>RecentPrograms.Command=recent_programs</Line>
+		<Line>RecentPrograms.Label=Recent</Line>
+		<Line>RecentPrograms.Tip=Recent Programs</Line>
 		<Line>RecentPrograms.Icon=none</Line>
 		<Line>SettingsMenu.Items=PCSettingsItem,ControlPanelItem,SEPARATOR,SecurityItem,NetworkItem,PrintersItem,TaskbarSettingsItem,ProgramsFeaturesItem,SEPARATOR,MenuSettingsItem</Line>
 		<Line>SettingsMenu.Command=settings</Line>
